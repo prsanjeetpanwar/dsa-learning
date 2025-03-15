@@ -1,14 +1,9 @@
-const studentDatabase=['jorden', 'erick', 'john', 'michel']
+var b=10
 
-const findStudent= (allStudents, studentName)=>{
-  
+// function newOne(){
+// let a =20;
+// console.log("the function a",a)
+// }
 
-    for(let i=0; i<allStudents.length ; i++){
-        if(allStudents[i]===studentName){
-           console.log(`Found ${studentName }`)
-        }
-    }
-}
-
-
-findStudent(studentDatabase,'erick')
+// newOne()
+// console.log("global a",a)
