@@ -1,0 +1,29 @@
+.heading-container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 100vh;            /* Full screen height */
+    background-color: rgb(228, 121, 121); /* Red background */
+}
+
+
+.heading {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.button{
+    background-color:rgb(8, 12, 8);
+    border:none;
+  padding: 15px 54px;
+  color:white;
+  font-size:10px;
+ border-radius: 230p;
+
+}
+.button:hover{
+   opacity: 0.7;
+   
+}
